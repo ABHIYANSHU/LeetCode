@@ -6,10 +6,11 @@ import java.util.HashMap;
 public class TwoSum {
 
     /**
+     * @author: @ABHIYANSHU
      * Time Complexity: O(n^2)
      * Space Complexity: O(1)
-     * Runtime: 55 ms, faster than 39.27% of Java online submissions for Two Sum.
-     * Memory Usage: 44.7 MB, less than 74.96% of Java online submissions for Two Sum.
+     * Runtime: 59 ms, faster than 5.02% of Java online submissions for Two Sum.
+     * Memory Usage: 46.39 MB, less than 44.37% of Java online submissions for Two Sum.
      */
     public static int[] twoSumWithNestedLoop(int[] nums, int target) {
         int[] ans = new int[2];
@@ -26,10 +27,11 @@ public class TwoSum {
     }
 
     /**
+     * @author: @ABHIYANSHU
      * Time Complexity: O(n) + O(n log n) + O(n) + O(n) = O(n log n)
      * Space Complexity: O(n)
-     * Runtime: 4 ms, faster than 74.23% of Java online submissions for Two Sum.
-     * Memory Usage: 45.4 MB, less than 47.79% of Java online submissions for Two Sum.
+     * Runtime: 6 ms, faster than 46.52% of Java online submissions for Two Sum.
+     * Memory Usage: 47.50 MB, less than 8.91% of Java online submissions for Two Sum.
      */
     public int[] twoSumWithTwoPointers(int[] nums, int target) {
         int n  = nums.length;
@@ -57,10 +59,11 @@ public class TwoSum {
     }
 
     /**
+     * @author: @ABHIYANSHU
      * Time Complexity: O(n)
      * Space Complexity: O(n)
-     * Runtime: 3 ms, faster than 90.34% of Java online submissions for Two Sum.
-     * Memory Usage: 45.4 MB, less than 44.65% of Java online submissions for Two Sum.
+     * Runtime: 2 ms, faster than 99.10% of Java online submissions for Two Sum.
+     * Memory Usage: 46.96 MB, less than 26.09% of Java online submissions for Two Sum.
      */
     public int[] twoSumWithHashMap(int[] nums, int target) {
         int n  = nums.length;
@@ -83,6 +86,7 @@ public class TwoSum {
     }
     
     /**
+     * @author: @ABHIYANSHU
      * Time Complexity: O(n)
      * Space Complexity: O(1)
      * It searches the item in the array which has not been already searched
