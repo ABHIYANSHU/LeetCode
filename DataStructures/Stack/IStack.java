@@ -1,8 +1,5 @@
-package LeetCode.DataStructures.Stack;
+package datastructures.stack;
 
-public interface IStack<E> {
-    public boolean push(E item);
-    public E pop();
-    public E peek();
-    public int size();
+public interface IStack {
+
 }
